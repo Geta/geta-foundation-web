@@ -21,9 +21,10 @@
     dotnet run
 
     # Linux
+    sudo env "PATH=$PATH" bash
     chmod +x sub/geta-foundation-core/src/Foundation/docker/build-script/*.sh
     cd sub/geta-foundation-core/src/Foundation.AppHost
-    sudo env "PATH=$PATH" dotnet run
+    dotnet run
 ```
 
 ### 🖥️ Running as Standalone
@@ -36,9 +37,10 @@
    dotnet run
 
    # Linux / MacOS
-   sudo env "PATH=$PATH" ./setup.sh
+   sudo env "PATH=$PATH" bash
+   ./setup.sh
    cd ../../src/Foundation.Web
-   sudo env "PATH=$PATH" dotnet run
+   dotnet run
 ```
 
 ### FAQ
