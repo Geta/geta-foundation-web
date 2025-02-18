@@ -5,7 +5,7 @@
 
 ## 🏁 Getting Started
 
-### Cloning the repo
+### Cloning the repository
 
 ```bash
     git clone https://github.com/Geta/geta-packages-foundation-sample.git
@@ -27,12 +27,38 @@
    ./setup.cmd
 
    # Linux/macOS
-   chmod +x setup.sh
    ./setup.sh
 
    cd ../../src/Sandbox.Web
 
    dotnet run
+```
+
+### FAQ
+
+Q: I have trouble executing `*.sh` files on Linux / MacOS
+
+A: You need to mark file as executable
+
+```bash
+   chmod +x ./my-file.sh
+   ./my-file.sh
+```
+
+Q: I get errors when running Aspire on Linux
+
+A: You need to run process as administrator
+
+```bash
+    sudo dotnet run
+```
+
+Q: I am using NVM and get error `npm - command not found` on Linux
+
+A: You need to pass PATH variable when running as administrator
+
+```bash
+    sudo env "PATH=$PATH" dotnet run
 ```
 
 ## ❓ How to Use as a Submodule
