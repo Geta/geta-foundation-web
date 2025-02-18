@@ -36,9 +36,9 @@
    dotnet run
 
    # Linux / MacOS
-   sudo ./setup.sh
+   sudo env "PATH=$PATH" ./setup.sh
    cd ../../src/Foundation.Web
-   sudo dotnet run
+   sudo env "PATH=$PATH" dotnet run
 ```
 
 ### FAQ
