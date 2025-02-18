@@ -15,8 +15,15 @@
 
 ### 🧪 Running with Aspire (Recommended)
 ```bash
+
+    # Windows / MacOS
     cd sub/geta-foundation-core/src/Foundation.AppHost
-    dotnet run 
+    dotnet run
+
+    # Linux
+    chmod +x sub/geta-foundation-core/src/Foundation/docker/build-script/*.sh
+    cd sub/geta-foundation-core/src/Foundation.AppHost
+    sudo env "PATH=$PATH" dotnet run
 ```
 
 ### 🖥️ Running as Standalone
