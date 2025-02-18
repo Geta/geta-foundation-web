@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\sandbox\geta-packages-foundation-sandbox\src\Foundation\Foundation.csproj" />
+      <ProjectReference Include="..\..\sub\geta-foundation-core\src\Foundation\Foundation.csproj" />
     </ItemGroup>
     
-    <Import Project="..\..\sandbox\geta-packages-foundation-sandbox\src\Foundation\modules\ModulesInclude.proj"/>
+    <Import Project="..\..\sub\geta-foundation-core\src\Foundation\modules\ModulesInclude.proj"/>
 </Project>

@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Geta Packages Foundation Sample</h1>
-  <p>A sample project which demonstrates how to use Geta Packages Foundation Sandbox as a submodule</p>
+  <h1>Geta Foundation Web</h1>
+  <p>A sample project which demonstrates how to use Geta Foundation Core as a submodule</p>
 </div>
 
 ## 🏁 Getting Started
@@ -8,20 +8,20 @@
 ### Cloning the repository
 
 ```bash
-    git clone https://github.com/Geta/geta-packages-foundation-sample.git
-    cd geta-packages-foundation-sample
+    git clone https://github.com/Geta/geta-foundation-web.git
+    cd geta-foundation-web
     git submodule update --init
 ```
 
 ### 🧪 Running with Aspire (Recommended)
 ```bash
-    cd sandbox/geta-packages-foundation-sandbox/src/Foundation.AppHost
+    cd sub/geta-foundation-core/src/Foundation.AppHost
     dotnet run 
 ```
 
 ### 🖥️ Running as Standalone
 ```bash
-   cd sandbox/geta-packages-foundation-sandbox
+   cd sub/geta-foundation-core
 
    # Windows
    ./setup.cmd
@@ -29,7 +29,7 @@
    # Linux/macOS
    ./setup.sh
 
-   cd ../../src/Sandbox.Web
+   cd ../../src/Foundation.Web
 
    dotnet run
 ```
@@ -65,9 +65,9 @@ A: You need to pass PATH variable when running as administrator
 1. **Add submodule to your project:**
    ```bash
    cd yourProjectDirectory
-   mkdir sandbox
-   cd sandbox
-   git submodule add https://github.com/Geta/geta-packages-foundation-sandbox.git
+   mkdir sub
+   cd sub
+   git submodule add https://github.com/Geta/geta-foundation-core.git
    ```
 2. **Create web project (.net 9):**
    ```bash
@@ -79,10 +79,10 @@ A: You need to pass PATH variable when running as administrator
    ```xml
     <!-- yourProjectName.Web.csproj -->
     <ItemGroup>
-      <ProjectReference Include="..\..\sandbox\src\Foundation\Foundation.csproj" />
+      <ProjectReference Include="..\..\sub\geta-foundation-core\src\Foundation\Foundation.csproj" />
     </ItemGroup>
    
-    <Import Project="..\..\sandbox\geta-packages-foundation-sandbox\src\Foundation\modules\ModulesInclude.proj"/>
+    <Import Project="..\..\sub\geta-foundation-core\src\Foundation\modules\ModulesInclude.proj"/>
    ```
 4. **Create startup.cs file**
     ```cs
@@ -110,7 +110,7 @@ A: You need to pass PATH variable when running as administrator
     .ConfigureWebHostDefaults(webBuilder =>
     {
         webBuilder.UseStartup<Startup>();
-        webBuilder.UseContentRoot(Path.GetFullPath("../../sandbox/geta-packages-foundation-sandbox/src/Foundation"));
+        webBuilder.UseContentRoot(Path.GetFullPath("../../sub/geta-foundation-core/src/Foundation"));
     })
     .Build()
     .Run();
@@ -121,11 +121,10 @@ A: You need to pass PATH variable when running as administrator
     ```json
     "AppHost": {
       "SqlServerName": "yourSqlServerName",
-      "SqlServerPort": 1433,
       "CmsDatabaseName": "yourProjectName-cms",
       "CommerceDatabaseName": "yourProjectName-commerce",
       "WebName": "yourProjectName"
     }
 
     ```
-7. **Run Foundation.AppHost**   
+7. **Run Foundation.~~AppHost~~**   

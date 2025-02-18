@@ -1,8 +1,8 @@
-using Sandbox.Web;
+using Foundation.Web;
 
 Foundation.Program.CreateHostBuilder<Startup>(args,
         webBuilder =>
             webBuilder.UseContentRoot(
-                Path.GetFullPath("../../sandbox/geta-packages-foundation-sandbox/src/Foundation")))
+                Path.GetFullPath("../../sub/geta-foundation-core/src/Foundation")))
     .Build()
     .Run();
