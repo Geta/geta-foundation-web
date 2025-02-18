@@ -32,14 +32,13 @@
 
    # Windows
    ./setup.cmd
-
-   # Linux/macOS
-   chmod +x sub/geta-foundation-core/src/Foundation/docker/build-script/*.sh
-   ./setup.sh
-
    cd ../../src/Foundation.Web
-
    dotnet run
+
+   # Linux / MacOS
+   sudo ./setup.sh
+   cd ../../src/Foundation.Web
+   sudo dotnet run
 ```
 
 ### FAQ
