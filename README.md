@@ -13,13 +13,13 @@
     git submodule update --init
 ```
 
-### 🧪 Quick Start with Aspire (Recommended)
+### 🧪 Running with Aspire (Recommended)
 ```bash
     cd sandbox/geta-packages-foundation-sandbox/src/Foundation.AppHost
     dotnet run 
 ```
 
-### 🖥️ Standalone Setup
+### 🖥️ Running as Standalone
 ```bash
    cd sandbox/geta-packages-foundation-sandbox
 
