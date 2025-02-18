@@ -4,19 +4,24 @@
 </div>
 
 ## 🏁 Getting Started
-### 🧪 Quick Start with Aspire (Recommended)
+
+### Cloning the repo
+
 ```bash
     git clone https://github.com/Geta/geta-packages-foundation-sample.git
     cd geta-packages-foundation-sample
     git submodule update --init
-    cd geta-packages-foundation-sample/sandbox/geta-packages-foundation-sandbox/src/Foundation.AppHost
+```
+
+### 🧪 Quick Start with Aspire (Recommended)
+```bash
+    cd sandbox/geta-packages-foundation-sandbox/src/Foundation.AppHost
     dotnet run 
 ```
+
 ### 🖥️ Standalone Setup
 ```bash
-   git clone https://github.com/Geta/geta-packages-foundation-sandbox.git
-   git submodule update --init
-   cd geta-packages-foundation-sample/sandbox/geta-packages-foundation-sandbox
+   cd sandbox/geta-packages-foundation-sandbox
 
    # Windows
    ./setup.cmd
