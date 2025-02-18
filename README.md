@@ -7,6 +7,7 @@
 ### 🧪 Quick Start with Aspire (Recommended)
 ```bash
     git clone https://github.com/Geta/geta-packages-foundation-sample.git
+    cd geta-packages-foundation-sample
     git submodule update --init
     cd geta-packages-foundation-sample/sandbox/geta-packages-foundation-sandbox/src/Foundation.AppHost
     dotnet run 
