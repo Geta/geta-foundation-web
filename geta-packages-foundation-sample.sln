@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation", "sandbox\geta-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.AppHost", "sandbox\geta-packages-foundation-sandbox\src\Foundation.AppHost\Foundation.AppHost.csproj", "{1F04DB0D-E529-4C25-BDA1-3A4E2E19E672}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.AppHost.ServiceDefaults", "sandbox\geta-packages-foundation-sandbox\src\Foundation.AppHost.ServiceDefaults\Foundation.AppHost.ServiceDefaults.csproj", "{C7585A16-DED5-4DCE-89E4-304534ABAFCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{1F04DB0D-E529-4C25-BDA1-3A4E2E19E672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F04DB0D-E529-4C25-BDA1-3A4E2E19E672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F04DB0D-E529-4C25-BDA1-3A4E2E19E672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7585A16-DED5-4DCE-89E4-304534ABAFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7585A16-DED5-4DCE-89E4-304534ABAFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7585A16-DED5-4DCE-89E4-304534ABAFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7585A16-DED5-4DCE-89E4-304534ABAFCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{24940F1A-9072-4307-B0D0-D8410F9E12F4} = {4BADF506-F22F-4B44-AEB6-91BBF49D931B}
 		{1F04DB0D-E529-4C25-BDA1-3A4E2E19E672} = {4BADF506-F22F-4B44-AEB6-91BBF49D931B}
+		{C7585A16-DED5-4DCE-89E4-304534ABAFCE} = {4BADF506-F22F-4B44-AEB6-91BBF49D931B}
 	EndGlobalSection
 EndGlobal

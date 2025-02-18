@@ -1,4 +1,3 @@
-
 namespace Sandbox.Web;
 
 public class Startup(IWebHostEnvironment webHostingEnvironment, IConfiguration configuration)
