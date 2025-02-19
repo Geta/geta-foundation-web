@@ -2,6 +2,7 @@
   <h1>Geta Foundation Web</h1>
   <p>A sample project which demonstrates how to use Geta Foundation Core as a submodule</p>
 </div>
+
 ## 🏁 Getting Started
 
 ### 📦 Prerequisites
