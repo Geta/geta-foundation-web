@@ -15,7 +15,6 @@
 
 ### 🧪 Running with Aspire (Recommended)
 ```bash
-
     # Windows
     cd sub/geta-foundation-core/src/Foundation.AppHost
     dotnet run
