@@ -143,4 +143,4 @@ A: You need to pass PATH variable when running as administrator
     }
 
     ```
-7. **Run Foundation.~~AppHost~~**   
+7. **Run Foundation.AppHost**   
