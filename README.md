@@ -46,7 +46,7 @@ Ensure your system is properly configured to meet all prerequisites for Geta Fou
    dotnet run
 ```
 
-If you run into issues, check FAQ section [here](https://github.com/Geta/geta-packages-foundation-web?tab=readme-ov-file#faq) 
+If you run into any issues, check the FAQ section [here](https://github.com/Geta/geta-packages-foundation-web?tab=readme-ov-file#faq) 
 
 ---
 
