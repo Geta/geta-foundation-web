@@ -2,7 +2,6 @@
   <h1>Geta Foundation Web</h1>
   <p>A sample project which demonstrates how to use Geta Foundation Core as a submodule</p>
 </div>
-
 ## 🏁 Getting Started
 
 ### 📦 Prerequisites
@@ -46,6 +45,10 @@ Ensure your system is properly configured to meet all prerequisites for Geta Fou
    cd ../../src/Foundation.Web
    dotnet run
 ```
+
+If you run into issues, check FAQ section [here](https://github.com/Geta/geta-packages-foundation-web?tab=readme-ov-file#faq) 
+
+---
 
 ### FAQ
 
