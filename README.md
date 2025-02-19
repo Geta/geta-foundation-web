@@ -5,7 +5,11 @@
 
 ## 🏁 Getting Started
 
-### Cloning the repository
+### 📦 Prerequisites
+
+Ensure your system is properly configured to meet all prerequisites for Geta Foundation Core listed [here](https://github.com/Geta/geta-foundation-core#%EF%B8%8F-prerequisites)
+
+### 🐑 Cloning the repository
 
 ```bash
     git clone https://github.com/Geta/geta-foundation-web.git
@@ -13,7 +17,7 @@
     git submodule update --init
 ```
 
-### 🧪 Running with Aspire (Recommended)
+### 🚀 Running with Aspire (Recommended)
 ```bash
     # Windows
     cd sub/geta-foundation-core/src/Foundation.AppHost
