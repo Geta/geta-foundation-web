@@ -28,8 +28,6 @@
 
 ### 🖥️ Running as Standalone
 ```bash
-   
-
    # Windows
    cd sub/geta-foundation-core
    ./setup.cmd
